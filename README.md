@@ -6,7 +6,7 @@
 python -m unittest discover tests
 ```
 
-## Structure
+## Structure and Description
 ```
 .
 ├── tests
