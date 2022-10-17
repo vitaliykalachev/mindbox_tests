@@ -7,6 +7,7 @@ python -m unittest discover tests
 ```
 
 ## Structure
+<p>
 .
 ├── tests
 |   ├── test_destribution.py
@@ -15,7 +16,7 @@ python -m unittest discover tests
 ├── labels.py
 ├── README.MD
 └── requirements.txt
-
+</p>
 
 ## License
 
