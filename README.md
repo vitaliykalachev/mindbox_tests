@@ -5,19 +5,6 @@
 ```sh
 python -m unittest discover tests
 ```
-
-## Structure
-<p>
-.
-├── tests
-|   ├── test_destribution.py
-|   └── test_labels.py
-├── destribution.py
-├── labels.py
-├── README.MD
-└── requirements.txt
-</p>
-
 ## License
 
 Distributed under the MIT License. See `LICENSE` for more information.
