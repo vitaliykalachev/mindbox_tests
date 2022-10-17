@@ -10,12 +10,11 @@ python -m unittest discover tests
 ```
 .
 ├── tests
-|   ├── test_destribution.py
-|   └── test_labels.py
-├── destribution.py
-├── labels.py
-├── README.MD
-└── requirements.txt
+|   ├── test_destribution.py -> Tests for Functions
+|   └── test_labels.py -------> Tests for Algorithm
+├── destribution.py    -------> Function №1 and Function №2
+├── labels.py   --------------> Algorithm 
+└── README.MD
 ```
 
 ## License
