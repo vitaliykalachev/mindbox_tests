@@ -15,11 +15,22 @@ class TestStringMethods(unittest.TestCase):
     def test_negative(self):
         self.assertRaises(AssertionError, get_destributions_from_zero, -1)
         
-    def test_number(self):
-        self.assertRaises(AssertionError, get_destributions_from_zero, "omg")
         
-    
-
+            
+        
+    def test_less10(self):
+        self.assertEqual(get_destributions(9, 8)[0], ('9', 1))
+        
+    def test_more10(self):
+        self.assertEqual(get_destributions(195, 265)[0], ('11', 25))
+        
+    def test_more1000(self):
+        self.assertEqual(get_destributions(1678, 2564)[0], ('16', 194))
+        
+    def test_negative(self):
+        self.assertRaises(AssertionError, get_destributions, -1, -2)
+        
+        
 
 if __name__ == "__main__":
     unittest.main()
